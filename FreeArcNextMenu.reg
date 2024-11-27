@@ -1,0 +1,89 @@
+Windows Registry Editor Version 5.00
+
+; Submenu principal para archivos
+[HKEY_CLASSES_ROOT\*\shell\FreeArcNext]
+"MUIVerb"="FreeArc Next"
+"SubCommands"="FreeArcNext.Open;FreeArcNext.ExtractHere;FreeArcNext.ExtractSubfolder;FreeArcNext.CompressDefault;FreeArcNext.CompressM1;FreeArcNext.CompressM2;FreeArcNext.CompressM3;FreeArcNext.CompressM4;FreeArcNext.CompressM5;FreeArcNext.CompressM6;FreeArcNext.CompressM7;FreeArcNext.CompressM8;FreeArcNext.CompressM9"
+
+; Submenu principal para carpetas
+[HKEY_CLASSES_ROOT\Directory\shell\FreeArcNext]
+"MUIVerb"="FreeArc Next"
+"SubCommands"="FreeArcNext.Open;FreeArcNext.ExtractHere;FreeArcNext.ExtractSubfolder;FreeArcNext.CompressDefault;;FreeArcNext.CompressM1;FreeArcNext.CompressM2;FreeArcNext.CompressM3;FreeArcNext.CompressM4;FreeArcNext.CompressM5;FreeArcNext.CompressM6;FreeArcNext.CompressM7;FreeArcNext.CompressM8;FreeArcNext.CompressM9"
+
+; Subopcion: Abrir Archivo
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.Open]
+@="Abrir Archivo"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.Open\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" open"
+
+; Subopcion: Extraer Aqui
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.ExtractHere]
+@="Extraer Aqui"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.ExtractHere\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" extract_here"
+
+; Subopcion: Extraer en Subcarpeta
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.ExtractSubfolder]
+@="Extraer en Subcarpeta"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.ExtractSubfolder\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" extract_subfolder"
+
+; Subopcion: Comprimir
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressDefault]
+@="Comprimir"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressDefault\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_default"
+
+; Subopcion: Comprimir -m1
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM1]
+@="Comprimir -m1"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM1\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m1"
+
+; Subopcion: Comprimir -m2
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM2]
+@="Comprimir -m2 32bits"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM2\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m2"
+
+; Subopcion: Comprimir -m3
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM3]
+@="Comprimir -m3"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM3\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m3"
+
+; Subopcion: Comprimir -m4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM4]
+@="Comprimir -m4"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM4\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m4"
+
+; Subopcion: Comprimir -m5
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM5]
+@="Comprimir -m5"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM5\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m5"
+
+; Subopcion: Comprimir -m6
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM6]
+@="Comprimir -m6"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM6\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m6"
+
+; Subopcion: Comprimir -m7
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM7]
+@="Comprimir -m7"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM7\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m7"
+
+; Subopcion: Comprimir -m8
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM8]
+@="Comprimir -m8"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM8\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m8"
+
+; Subopcion: Comprimir -m9
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM9]
+@="Comprimir -m9"
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\FreeArcNext.CompressM9\command]
+@="\"C:\\FreeArcNext\\freearc_action.bat\" \"%1\" compress_m9"
